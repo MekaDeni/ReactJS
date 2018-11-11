@@ -24,7 +24,8 @@ class Employee extends Human{
 }
 
 class Developer extends Employee {
-	constructor() {
+	constructor(salary, department) {
+		super(salary, department);
 		this.manager = {};
 	}
 
@@ -35,7 +36,8 @@ class Developer extends Employee {
 }
 
 class Manager extends Employee {
-	constructor() {
+	constructor(salary, department) {
+		super(salary, department);
 		this.arrDevelopers = [];
 	}
 
@@ -49,6 +51,3 @@ class Manager extends Employee {
 		console.log("Сотрудники: "+this.arrDevelopers);
 	}
 }
-
-const Alex = new Employee ("Alex", 21, 2, 2, "21");
-Alex.displayInfo();
