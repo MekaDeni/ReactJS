@@ -1,0 +1,12 @@
+.content {
+	display: flex;
+	height: calc(100vh - 90px);
+	justify-content: center;
+	align-items: center;
+}
+
+.content > p {
+	text-align: center;
+	font-size: 30px;
+	font-weight: 900;
+}
