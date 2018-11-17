@@ -1,0 +1,44 @@
+@keyframes moveOn {
+	from{
+		left: 98%;
+	}
+
+	to{
+		left: 87%;
+	}
+}
+
+@keyframes moveOut {
+	from{
+		left: 87%;
+	}
+
+	to{
+		left: 98%;
+	}
+}
+
+.sidebar {
+	display: flex;
+	width: 300px;
+	height: 300px;
+	align-items: center;
+	position: fixed;
+	left: 98%;
+	animation: moveOut 1s;
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 50px;
+}
+.sidebar a {
+	color: black;
+	text-decoration: none;
+}
+
+.sidebar li {
+	margin-bottom: 20px;
+}
+
+.sidebar:hover {
+	animation: moveOn 1s forwards;
+}
+
