@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import "./Main.css";
 
+import Sidebar from "./Sidebar.jsx";
+
 class Main extends Component {
 	render() {
 		return (
@@ -12,6 +14,7 @@ class Main extends Component {
 
 					11.2018
 				</p>
+				<Sidebar/>
 			</div>
 		);
 	}

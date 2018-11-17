@@ -6,15 +6,17 @@
 	background-color: #179BC6;
 	color: black;
 }
-
 .header > ul > a > li,
 #login {
 	display: inline-block;
-	padding-right: 15px;
 	color: black;
 }
-
+.header > ul > a > li {
+	margin-top: 15px;
+}
+.header a {
+	margin-right: 25px;
+}
 #login {
-	padding-right: 20px;
 	text-decoration: none;
 }
