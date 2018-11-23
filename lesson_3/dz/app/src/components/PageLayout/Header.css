@@ -1,0 +1,22 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 20px;
+	background-color: #179BC6;
+	color: black;
+}
+.header > ul > a > li,
+#login {
+	display: inline-block;
+	color: black;
+}
+.header > ul > a > li {
+	margin-top: 15px;
+}
+.header a {
+	margin-right: 25px;
+}
+#login {
+	text-decoration: none;
+}
