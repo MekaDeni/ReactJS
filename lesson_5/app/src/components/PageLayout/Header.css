@@ -1,0 +1,40 @@
+.mainMenu {
+	display: flex;
+	height: 40px;
+	padding-left: 150px;
+	align-items: center;
+	background-color: #0095F2;
+}
+.mainMenu ul li{
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.mainMenu a {
+	text-decoration: none;
+	color: white;
+}
+
+#home:focus {
+	background-color: black;
+	opacity: 0.8;
+	border-radius: 50px;
+}
+#blog:focus {
+	background-color: #FFD800;
+	opacity: 0.8;
+	border-radius: 50px;
+	color: black;
+}
+#comments:focus {
+	background-color: red;
+	opacity: 0.8;
+	border-radius: 50px;
+	color: black;
+}
+#users:focus {
+	background-color: #0CFF00;
+	opacity: 0.8;
+	border-radius: 50px;
+	color: black;
+}
