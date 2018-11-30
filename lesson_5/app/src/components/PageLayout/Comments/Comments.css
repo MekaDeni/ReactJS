@@ -1,0 +1,9 @@
+.commentsBlog {
+	/* min-height: 500px; */
+	height: calc(100vh - 160px);
+	margin: 0 180px;
+}
+
+.blogComment {
+	background: rgba(0, 0, 0, 0.1);
+}
