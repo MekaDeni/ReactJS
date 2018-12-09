@@ -1,0 +1,28 @@
+.sidebar {
+	position: absolute;
+	top: 150px;
+	left: 900px;
+}
+
+.baner {
+	width: 220px;
+	margin-left: 20px;
+	padding: 15px;
+	border-radius: 5px;
+	background-color: #EEEEEE;
+}
+.baner p {
+	margin: 0;
+}
+.baner h3 {
+	margin: 0 0 15px 0;
+ }
+.archivesBlock li,
+.elsewhereBlock li {
+	list-style: none;
+}
+.archivesBlock a,
+.elsewhereBlock a {
+	text-decoration: none;
+	color: #4978FF;
+}

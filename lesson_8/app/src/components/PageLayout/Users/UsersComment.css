@@ -1,0 +1,7 @@
+.divComment{
+	height: calc(100vh - 170px);
+	margin: 0 190px;
+}
+.comment{
+	background-color: #D4D4D4
+}

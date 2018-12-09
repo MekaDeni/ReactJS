@@ -1,0 +1,34 @@
+.conteinerBlog {
+	min-height: 700px;
+}
+main {
+	width: 45%;
+	margin: 50px 0 0 200px;
+}
+.mainHeader p {
+	margin: 0;
+	font-size: 20px;
+}
+#headline {
+	font-size: 60px;
+	margin: 0;
+}
+.buttonNav {
+	display: flex;
+	height: 100px;
+	justify-content: flex-start;
+	align-items: center;
+}
+.buttonNav button {
+	width: 120px;
+	height: 50px;
+	margin-right: 10px;
+	background-color: white;
+	border-radius: 50px;
+	border: 1px solid #D5D5D5;
+	font-size: 18px;
+	color: #0095F2;
+}
+.buttonNav button:focus {
+	outline: none;
+}
